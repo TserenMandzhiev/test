@@ -1,0 +1,22 @@
+:root {
+	--color-white: #FFFFFF;
+	--color-black: #070809;
+
+	--color-button-primary: #B470EB;
+	--color-button-secondary: #000000;
+	--color-gray-button: #e6e6e6;
+
+	--color-green: #9CCF4F;
+	--color-purple: #EDDAFB;
+	--color-gray: #F0F4FA99;
+	--color-gray-txt: #808080;
+
+	--font-family-b: RobotoB, sans-serif;
+	--font-family-m: RobotoM, sans-serif;
+	--font-family-l: RobotoL, sans-serif;
+	--font-family-r: RobotoR, sans-serif;
+
+	--animation-speed: .3s;
+	--animation-func: ease;
+	--animation: var(--animation-speed) var(--animation-func);
+}

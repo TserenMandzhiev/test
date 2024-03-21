@@ -1,0 +1,169 @@
+* {
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit;
+}
+
+input, button {
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+input:focus, button:focus {
+  outline: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@font-face {
+  font-family: "RobotoB";
+  src: url("../../fonts/Roboto-Bold.ttf");
+}
+@font-face {
+  font-family: "RobotoM";
+  src: url("../../fonts/Roboto-Medium.ttf");
+}
+@font-face {
+  font-family: "RobotoL";
+  src: url("../../fonts/Roboto-Light.ttf");
+}
+@font-face {
+  font-family: "RobotoR";
+  src: url("../../fonts/Roboto-Regular.ttf");
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-image: url("../../img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.header .header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 13px 24px;
+}
+.header .header__nav-left, .header .header__nav-right {
+  padding: 13px 24px;
+}
+.header .header__nav-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 60px;
+}
+.header .header__nav-left .header-logo {
+  font-family: var(--font-family-b);
+  font-size: 31.12px;
+  color: var(--color-black);
+  line-height: 34.24px;
+  letter-spacing: -1px;
+}
+.header .header__nav-left .logo-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 48px;
+}
+.header .header__nav-left .logo-list .dropdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header .header__nav-left .logo-list .header-link {
+  font-family: var(--font-family-m);
+  color: var(--color-black);
+}
+.header .header__nav-left .logo-list .header-link:first-child::after {
+  position: relative;
+  content: "";
+  background-image: url("../../img/ico/arrow.svg");
+  bottom: 0;
+}
+.header .header__nav-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 58.5px;
+}
+.header .header__nav-right .header-menu {
+  font-family: var(--font-family-m);
+  color: var(--color-black);
+}
+.header .header__nav-right .menu-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 60px;
+}
+.header .header__nav-right .menu-list .header-link {
+  font-family: var(--font-family-m);
+  color: var(--color-black);
+}
+
+:root {
+  --color-white: #FFFFFF;
+  --color-black: #070809;
+  --color-button-primary: #B470EB;
+  --color-button-secondary: #000000;
+  --color-gray-button: #e6e6e6;
+  --color-green: #9CCF4F;
+  --color-purple: #EDDAFB;
+  --color-gray: #F0F4FA99;
+  --color-gray-txt: #808080;
+  --font-family-b: RobotoB, sans-serif;
+  --font-family-m: RobotoM, sans-serif;
+  --font-family-l: RobotoL, sans-serif;
+  --font-family-r: RobotoR, sans-serif;
+  --animation-speed: .3s;
+  --animation-func: ease;
+  --animation: var(--animation-speed) var(--animation-func);
+}
+
+.block {
+  display: none;
+}/*# sourceMappingURL=main.css.map */
